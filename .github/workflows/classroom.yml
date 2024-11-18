@@ -21,7 +21,7 @@ jobs:
         setup-command: pip install pytest
         command: pytest tests/test_l7_z2.py
         timeout: 10
-        max-score: 1
+        max-score: 2
     - name: l7_z1
       id: l7_z1
       uses: classroom-resources/autograding-command-grader@v1
@@ -39,7 +39,7 @@ jobs:
         setup-command: pip install pytest
         command: pytest tests/test_l7_z3.py
         timeout: 10
-        max-score: 1
+        max-score: 2
     - name: l7_z4
       id: l7_z4
       uses: classroom-resources/autograding-command-grader@v1
@@ -48,7 +48,7 @@ jobs:
         setup-command: pip install pytest
         command: pytest tests/test_l7_z4.py
         timeout: 10
-        max-score: 1
+        max-score: 2
     - name: l7_z5
       id: l7_z5
       uses: classroom-resources/autograding-command-grader@v1
@@ -57,7 +57,7 @@ jobs:
         setup-command: pip install pytest
         command: pytest tests/test_l7_z5.py
         timeout: 10
-        max-score: 1
+        max-score: 2
     - name: l7_z6
       id: l7_z6
       uses: classroom-resources/autograding-command-grader@v1
@@ -66,7 +66,7 @@ jobs:
         setup-command: pip install pytest
         command: pytest tests/test_l7_z6.py
         timeout: 10
-        max-score: 1
+        max-score: 2
     - name: l7_z7
       id: l7_z7
       uses: classroom-resources/autograding-command-grader@v1
@@ -75,7 +75,7 @@ jobs:
         setup-command: pip install pytest
         command: pytest tests/test_l7_z7.py
         timeout: 10
-        max-score: 1
+        max-score: 2
     - name: l7_z8
       id: l7_z8
       uses: classroom-resources/autograding-command-grader@v1
@@ -84,7 +84,241 @@ jobs:
         setup-command: pip install pytest
         command: pytest tests/test_l7_z8.py
         timeout: 10
+        max-score: 3
+    - name: l9_z2
+      id: l9_z2
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: l9_z2
+        setup-command: pip install pytest
+        command: pytest tests/test_l9_z2.py
+        timeout: 10
+        max-score: 2
+    - name: l8_z2
+      id: l8_z2
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: l8_z2
+        setup-command: pip install pytest
+        command: pytest tests/test_l8_z2.py
+        timeout: 10
         max-score: 1
+    - name: l8_z3
+      id: l8_z3
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: l8_z3
+        setup-command: pip install pytest
+        command: pytest tests/test_l8_z3.py
+        timeout: 10
+        max-score: 2
+    - name: l8_z4
+      id: l8_z4
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: l8_z4
+        setup-command: pip install pytest
+        command: pytest tests/test_l8_z4.py
+        timeout: 10
+        max-score: 2
+    - name: l8_z5
+      id: l8_z5
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: l8_z5
+        setup-command: pip install pytest
+        command: pytest tests/test_l8_z5.py
+        timeout: 10
+        max-score: 2
+    - name: l8_z6
+      id: l8_z6
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: l8_z6
+        setup-command: pip install pytest
+        command: pytest tests/test_l8_z6.py
+        timeout: 10
+        max-score: 2
+    - name: l8_z7
+      id: l8_z7
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: l8_z7
+        setup-command: pip install pytest
+        command: pytest tests/test_l8_z7.py
+        timeout: 10
+        max-score: 3
+    - name: l9_z1
+      id: l9_z1
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: l9_z1
+        setup-command: pip install pytest
+        command: pytest tests/test_l9_z1.py
+        timeout: 10
+        max-score: 1
+    - name: l9_z2
+      id: l9_z2
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: l9_z2
+        setup-command: pip install pytest
+        command: pytest tests/test_l9_z2.py
+        timeout: 10
+        max-score: 2
+    - name: l9_z3
+      id: l9_z3
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: l9_z3
+        setup-command: pip install pytest
+        command: pytest tests/test_l9_z3.py
+        timeout: 10
+        max-score: 2
+    - name: l9_z4
+      id: l9_z4
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: l9_z4
+        setup-command: pip install pytest
+        command: pytest tests/test_l9_z4.py
+        timeout: 10
+        max-score: 2
+    - name: l9_z5
+      id: l9_z5
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: l9_z5
+        setup-command: pip install pytest
+        command: pytest tests/test_l9_z5.py
+        timeout: 10
+        max-score: 3
+    - name: l9_z6
+      id: l9_z6
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: l9_z6
+        setup-command: pip install pytest
+        command: pytest tests/test_l9_z6.py
+        timeout: 10
+        max-score: 3
+    - name: l10_z1
+      id: l10_z1
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: l10_z1
+        setup-command: pip install pytest
+        command: pytest tests/test_l10_z1.py
+        timeout: 10
+        max-score: 1
+    - name: l10_z2
+      id: l10_z2
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: l10_z2
+        setup-command: pip install pytest
+        command: pytest tests/test_l10_z2.py
+        timeout: 10
+        max-score: 2
+    - name: l10_z3
+      id: l10_z3
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: l10_z3
+        setup-command: pip install pytest
+        command: pytest tests/test_l10_z3.py
+        timeout: 10
+        max-score: 2
+    - name: l10_z4
+      id: l10_z4
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: l10_z4
+        setup-command: pip install pytest
+        command: pytest tests/test_l10_z4.py
+        timeout: 10
+        max-score: 2
+    - name: l10_z5
+      id: l10_z5
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: l10_z5
+        setup-command: pip install pytest
+        command: pytest tests/test_l10_z5.py
+        timeout: 10
+        max-score: 3
+    - name: l10_z6
+      id: l10_z6
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: l10_z6
+        setup-command: pip install pytest
+        command: pytest tests/test_l10_z6.py
+        timeout: 10
+        max-score: 3
+    - name: l11_z1
+      id: l11_z1
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: l11_z1
+        setup-command: pip install pytest
+        command: pytest tests/test_l11_z1.py
+        timeout: 10
+        max-score: 2
+    - name: l11_z2
+      id: l11_z2
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: l11_z2
+        setup-command: pip install pytest
+        command: pytest tests/test_l11_z2.py
+        timeout: 10
+        max-score: 2
+    - name: l11_z3
+      id: l11_z3
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: l11_z3
+        setup-command: pip install pytest
+        command: pytest tests/test_l11_z3.py
+        timeout: 10
+        max-score: 2
+    - name: l11_z4
+      id: l11_z4
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: l11_z4
+        setup-command: pip install pytest
+        command: pytest tests/test_l11_z4.py
+        timeout: 10
+        max-score: 2
+    - name: l11_z5
+      id: l11_z5
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: l11_z5
+        setup-command: pip install pytest
+        command: pytest tests/test_l11_z5.py
+        timeout: 10
+        max-score: 3
+    - name: l11_z6
+      id: l11_z6
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: l11_z6
+        setup-command: pip install pytest
+        command: pytest tests/test_l11_z6.py
+        timeout: 10
+        max-score: 3
+    - name: l11_z7
+      id: l11_z7
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: l11_z7
+        setup-command: pip install pytest
+        command: pytest tests/test_l11_z7.py
+        timeout: 10
+        max-score: 5
     - name: Autograding Reporter
       uses: classroom-resources/autograding-grading-reporter@v1
       env:
@@ -96,5 +330,30 @@ jobs:
         L7_Z6_RESULTS: "${{steps.l7_z6.outputs.result}}"
         L7_Z7_RESULTS: "${{steps.l7_z7.outputs.result}}"
         L7_Z8_RESULTS: "${{steps.l7_z8.outputs.result}}"
+        L9_Z2_RESULTS: "${{steps.l9_z2.outputs.result}}"
+        L8_Z2_RESULTS: "${{steps.l8_z2.outputs.result}}"
+        L8_Z3_RESULTS: "${{steps.l8_z3.outputs.result}}"
+        L8_Z4_RESULTS: "${{steps.l8_z4.outputs.result}}"
+        L8_Z5_RESULTS: "${{steps.l8_z5.outputs.result}}"
+        L8_Z6_RESULTS: "${{steps.l8_z6.outputs.result}}"
+        L8_Z7_RESULTS: "${{steps.l8_z7.outputs.result}}"
+        L9_Z1_RESULTS: "${{steps.l9_z1.outputs.result}}"
+        L9_Z3_RESULTS: "${{steps.l9_z3.outputs.result}}"
+        L9_Z4_RESULTS: "${{steps.l9_z4.outputs.result}}"
+        L9_Z5_RESULTS: "${{steps.l9_z5.outputs.result}}"
+        L9_Z6_RESULTS: "${{steps.l9_z6.outputs.result}}"
+        L10_Z1_RESULTS: "${{steps.l10_z1.outputs.result}}"
+        L10_Z2_RESULTS: "${{steps.l10_z2.outputs.result}}"
+        L10_Z3_RESULTS: "${{steps.l10_z3.outputs.result}}"
+        L10_Z4_RESULTS: "${{steps.l10_z4.outputs.result}}"
+        L10_Z5_RESULTS: "${{steps.l10_z5.outputs.result}}"
+        L10_Z6_RESULTS: "${{steps.l10_z6.outputs.result}}"
+        L11_Z1_RESULTS: "${{steps.l11_z1.outputs.result}}"
+        L11_Z2_RESULTS: "${{steps.l11_z2.outputs.result}}"
+        L11_Z3_RESULTS: "${{steps.l11_z3.outputs.result}}"
+        L11_Z4_RESULTS: "${{steps.l11_z4.outputs.result}}"
+        L11_Z5_RESULTS: "${{steps.l11_z5.outputs.result}}"
+        L11_Z6_RESULTS: "${{steps.l11_z6.outputs.result}}"
+        L11_Z7_RESULTS: "${{steps.l11_z7.outputs.result}}"
       with:
-        runners: l7_z2,l7_z1,l7_z3,l7_z4,l7_z5,l7_z6,l7_z7,l7_z8
+        runners: l7_z2,l7_z1,l7_z3,l7_z4,l7_z5,l7_z6,l7_z7,l7_z8,l9_z2,l8_z2,l8_z3,l8_z4,l8_z5,l8_z6,l8_z7,l9_z1,l9_z2,l9_z3,l9_z4,l9_z5,l9_z6,l10_z1,l10_z2,l10_z3,l10_z4,l10_z5,l10_z6,l11_z1,l11_z2,l11_z3,l11_z4,l11_z5,l11_z6,l11_z7
